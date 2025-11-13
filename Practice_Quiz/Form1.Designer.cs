@@ -72,22 +72,23 @@
             // 
             this.label3.Location = new System.Drawing.Point(1, 86);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(267, 75);
+            this.label3.Size = new System.Drawing.Size(342, 83);
             this.label3.TabIndex = 2;
             this.label3.Text = "When the user hits the button, the label below should output Happy Hump Day";
             // 
             // question01Button
             // 
-            this.question01Button.Location = new System.Drawing.Point(5, 147);
+            this.question01Button.Location = new System.Drawing.Point(5, 163);
             this.question01Button.Name = "question01Button";
             this.question01Button.Size = new System.Drawing.Size(119, 35);
             this.question01Button.TabIndex = 3;
             this.question01Button.Text = "Question 01";
             this.question01Button.UseVisualStyleBackColor = true;
+            this.question01Button.Click += new System.EventHandler(this.question01Button_Click);
             // 
             // question1OutputLabel
             // 
-            this.question1OutputLabel.Location = new System.Drawing.Point(1, 185);
+            this.question1OutputLabel.Location = new System.Drawing.Point(1, 201);
             this.question1OutputLabel.Name = "question1OutputLabel";
             this.question1OutputLabel.Size = new System.Drawing.Size(247, 47);
             this.question1OutputLabel.TabIndex = 4;
@@ -95,7 +96,7 @@
             // 
             // label4
             // 
-            this.label4.Location = new System.Drawing.Point(1, 295);
+            this.label4.Location = new System.Drawing.Point(1, 263);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(148, 29);
             this.label4.TabIndex = 5;
@@ -103,9 +104,9 @@
             // 
             // label5
             // 
-            this.label5.Location = new System.Drawing.Point(1, 324);
+            this.label5.Location = new System.Drawing.Point(1, 292);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(387, 75);
+            this.label5.Size = new System.Drawing.Size(436, 90);
             this.label5.TabIndex = 6;
             this.label5.Text = "The user will enter their name.  The label will output \"Hello USERNAME\" (replace " +
     "USERNAME with the users input";
@@ -118,12 +119,13 @@
             this.question2Button.TabIndex = 7;
             this.question2Button.Text = "Question 02";
             this.question2Button.UseVisualStyleBackColor = true;
+            this.question2Button.Click += new System.EventHandler(this.question2Button_Click);
             // 
             // question2TextBox
             // 
             this.question2TextBox.Location = new System.Drawing.Point(5, 385);
             this.question2TextBox.Name = "question2TextBox";
-            this.question2TextBox.Size = new System.Drawing.Size(286, 26);
+            this.question2TextBox.Size = new System.Drawing.Size(286, 31);
             this.question2TextBox.TabIndex = 8;
             // 
             // question2OutputLabel
@@ -144,9 +146,9 @@
             // 
             // label7
             // 
-            this.label7.Location = new System.Drawing.Point(477, 86);
+            this.label7.Location = new System.Drawing.Point(377, 86);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(310, 183);
+            this.label7.Size = new System.Drawing.Size(510, 192);
             this.label7.TabIndex = 11;
             this.label7.Text = resources.GetString("label7.Text");
             this.label7.Click += new System.EventHandler(this.label7_Click);
@@ -159,19 +161,20 @@
             this.question3Button.TabIndex = 12;
             this.question3Button.Text = "Question 03";
             this.question3Button.UseVisualStyleBackColor = true;
+            this.question3Button.Click += new System.EventHandler(this.question3Button_Click);
             // 
             // q3Int1Text
             // 
             this.q3Int1Text.Location = new System.Drawing.Point(479, 281);
             this.q3Int1Text.Name = "q3Int1Text";
-            this.q3Int1Text.Size = new System.Drawing.Size(100, 26);
+            this.q3Int1Text.Size = new System.Drawing.Size(100, 31);
             this.q3Int1Text.TabIndex = 13;
             // 
             // q3int2Text
             // 
             this.q3int2Text.Location = new System.Drawing.Point(638, 281);
             this.q3int2Text.Name = "q3int2Text";
-            this.q3int2Text.Size = new System.Drawing.Size(100, 26);
+            this.q3int2Text.Size = new System.Drawing.Size(100, 31);
             this.q3int2Text.TabIndex = 14;
             // 
             // question3OutputLabel
@@ -195,7 +198,7 @@
             // 
             this.label9.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Maroon;
-            this.label9.Location = new System.Drawing.Point(477, 417);
+            this.label9.Location = new System.Drawing.Point(624, 468);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(263, 84);
             this.label9.TabIndex = 17;
@@ -203,7 +206,7 @@
             // 
             // label10
             // 
-            this.label10.Location = new System.Drawing.Point(267, 477);
+            this.label10.Location = new System.Drawing.Point(249, 477);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(222, 75);
             this.label10.TabIndex = 18;
@@ -211,9 +214,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 561);
+            this.ClientSize = new System.Drawing.Size(904, 561);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
